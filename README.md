@@ -1,6 +1,5 @@
 # Lab_1
 Usage: python parser.py
-Output: 
+Output: Show line with searching substring
 Usage: python WC.py
-Output: 
-
+Output: Create wc.log file
