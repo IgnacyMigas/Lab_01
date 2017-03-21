@@ -2,10 +2,10 @@
 
 import unittest
 
-from WC import WordCounter
+from parser import LogParser
 from exception import *
 
-class WordCounter_test(unittest.TestCase):
+class LogParser_test(unittest.TestCase):
 	def test_with_no_file(self):
 		filename = "test.dat"
 		wc = WordCounter(filename)
