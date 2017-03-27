@@ -7,4 +7,7 @@ install:
 # command to run tests
 script: 
   - python parser/parser_test.py
-  - python WC/wc_test.py
+  - python WC/WC_test.py
+
+notifications:
+  email: false
